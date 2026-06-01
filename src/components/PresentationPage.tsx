@@ -31,7 +31,7 @@ export const PresentationPage: React.FC = () => {
               <ul>
                 <li>Interaktív labirintus szerkesztő</li>
                 <li>Játékterület kincskereséshez</li>
-                <li>Többnyelvű felület (Magyar, English, Deutsch)</li>
+                <li>Többnyelvű felület (Magyar, English)</li>
                 <li>Térképmentés és betöltés</li>
               </ul>
             </div>
