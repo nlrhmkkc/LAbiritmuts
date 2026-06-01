@@ -25,7 +25,7 @@ export const PresentationPage: React.FC = () => {
             <div className="text-block">
               <p>
                 A <strong>Labirintus Kaland</strong> egy C# WPF alkalmazás, amely lehetővé teszi 
-                felhasználók számára, hogy saját labirintusokat szerkesszenek és játssanak. 
+                felhasználók számára, hogy saját labirintusokat szerkesszenek és játszanak. 
                 Az alkalmazás támogatja több felhasználói interface elemet:
               </p>
               <ul>
