@@ -13,15 +13,12 @@ import gif6Img from './assets/gif6.gif';
 export const PresentationPage: React.FC = () => {
   return (
     <div className="presentation">
-      {/* Header */}
       <header className="header">
         <h1>🏛️ Labirintus Kaland - Bemutató</h1>
         <p>Egy interaktív labirintus szerkesztő és játék alkalmazás</p>
       </header>
 
-      {/* Tartalom */}
       <main className="content">
-        {/* 1. Bevezetés */}
         <section className="section">
           <h2>📖 Bevezetés</h2>
           <div className="section-content">
@@ -44,11 +41,9 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 2. Fő Funkcionalitás */}
         <section className="section">
           <h2>🎮 Fő Funkcionalitás</h2>
           
-          {/* Játékmód */}
           <div className="subsection">
             <h3>🕹️ Játékmód</h3>
             <div className="section-content">
@@ -82,7 +77,6 @@ export const PresentationPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Szerkesztő */}
           <div className="subsection">
             <h3>🛠️ Labirintus Szerkesztő</h3>
             <div className="section-content">
@@ -134,7 +128,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 3. Térképstruktúra */}
         <section className="section">
           <h2>🗺️ Térképstruktúra</h2>
           <div className="section-content">
@@ -164,7 +157,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 4. Felhasználói Interfész */}
         <section className="section">
           <h2>🎨 Felhasználói Interfész</h2>
           
@@ -199,7 +191,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 5. Játékleírás */}
         <section className="section">
           <h2>🎯 Játékleírás</h2>
           <div className="section-content">
@@ -227,7 +218,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 6. Technikai Megvalósítás */}
         <section className="section">
           <h2>⚙️ Technikai Megvalósítás</h2>
           <div className="section-content section-content--wide">
@@ -250,7 +240,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 7. Ábra - Gyakorlati Folyamat */}
         <section className="section">
           <h2>📊 Alkalmazás Folyamata</h2>
           <div className="flow-diagram">
@@ -286,7 +275,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 8. Szerkesztő Lépésről Lépésre */}
         <section className="section">
           <h2>🛠️ Szerkesztő Használata - Lépésről Lépésre</h2>
           
@@ -366,7 +354,6 @@ export const PresentationPage: React.FC = () => {
           </div>
         </section>
 
-        {/* 10. Összefoglalás */}
         <section className="section conclusion">
           <h2>🎓 Összefoglalás</h2>
           <div className="summary-boxes">
@@ -401,7 +388,6 @@ export const PresentationPage: React.FC = () => {
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="footer">
         <p>🏛️ Labirintus Kaland - Bemutató Oldal</p>
         <p>Készült TypeScript + React-tal</p>
